@@ -1,0 +1,52 @@
+@charset "UTF-8";
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.wrapper {
+  width: 375px;
+  margin: 0 auto; }
+  .wrapper .inner {
+    width: 270px;
+    margin: 0 auto; }
+    .wrapper .inner .app-title {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 20px;
+      background: linear-gradient(transparent 70%, #FFFF00 0%); }
+    .wrapper .inner .todays-work {
+      margin: 0 auto; }
+      .wrapper .inner .todays-work .task {
+        width: 180px;
+        height: 30px; }
+      .wrapper .inner .todays-work .time {
+        width: 50px;
+        height: 30px; }
+    .wrapper .inner .user_and_date .user {
+      margin-bottom: 45px;
+      width: 110px;
+      height: 21px; }
+    .wrapper .inner .user_and_date .date {
+      margin-top: 3px;
+      font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+      width: 135px; }
+    .wrapper .inner .user_and_date .user, .wrapper .inner .user_and_date .date {
+      font-size: 14px;
+      text-align: right;
+      display: inline-block; }
+    .wrapper .inner .submit-button {
+      width: 100%; }
+    .wrapper .inner .new-task-area {
+      width: 260px;
+      margin: 0 auto; }
+      .wrapper .inner .new-task-area .new-task {
+        width: 200px;
+        height: 24px; }
+      .wrapper .inner .new-task-area .add-btn {
+        width: 46px;
+        height: 30px; }
+      .wrapper .inner .new-task-area p {
+        font-weight: bold;
+        text-align: center; }
+  .wrapper .move-btn {
+    width: 100%; }

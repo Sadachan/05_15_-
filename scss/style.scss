@@ -1,0 +1,74 @@
+hr{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+.wrapper{
+  width:375px;
+  margin: 0 auto;
+  //background-color:red;
+  .inner{
+    //background-color:blue;
+    width:270px;
+    margin: 0 auto;
+    .app-title{
+      text-align:center;
+      font-size:30px;
+      margin-bottom:20px;
+      background:linear-gradient(transparent 70%, #FFFF00 0%);
+    }
+    .todays-work{
+      margin:0 auto;
+      .task{
+        width:180px;
+        height:30px;
+      }
+      .time{
+        width:50px;
+        height:30px;
+      }
+    }
+    .user_and_date{
+      .user{
+        margin-bottom:45px;
+        width:110px;
+        height:21px;
+      }
+      .date{
+        margin-top:3px;
+        font-family:"ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+        width:135px;
+        // border:none;
+      }
+      .user,.date{
+        font-size:14px;
+        text-align:right;
+        display:inline-block;
+      }
+    }
+    .submit-button{
+      width:100%;
+    }
+    .new-task-area{
+      width:260px;
+      margin:0 auto;
+      .new-task{
+        width:200px;
+        height:24px;
+        //display:inline-block;
+      }
+      .add-btn{
+        width:46px;
+        height:30px;
+        // display:inline-block;
+      }
+      p{
+        font-weight:bold;
+        text-align:center;
+      }
+    }
+  }
+  .move-btn{
+    width:100%;
+  }
+}
+  
